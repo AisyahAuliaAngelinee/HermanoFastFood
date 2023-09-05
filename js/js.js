@@ -1,6 +1,4 @@
-let header = document.getElementsByClassName('.header')
-let flex = document.getElementsByClassName('.flex')
-let navbar = document.getElementsByClassName('.navbar')
+let navbar = document.getElementsByTagName('nav')[0]
 
 // console.log(document.getElementsByClassName('icons'));
 // console.log(document.getElementById('menu'));
@@ -17,8 +15,6 @@ let navbar = document.getElementsByClassName('.navbar')
 // console.log(flex)
 console.log(navbar)
 document.querySelector('#menu').onclick = () => {
-    // header.classList.toggle('active');
-    // navbar.classList.toggle('active');
     navbar.classList.toggle('active');
 }
 

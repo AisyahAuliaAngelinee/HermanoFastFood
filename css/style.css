@@ -76,15 +76,15 @@ section {
     vertical-align: middle;
 }
 
-.header .flex .navbar {
+/* .header .flex .navbar {
     position: absolute;
     top: 99%; left: 0; right: 0;
     border-top: var(--border);
     border-bottom: var(--border);
     background-color: var(--mist);
-    /* transition: .2s linear;
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); */
-}
+    transition: .2s linear;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+} */
 
 .header .flex .navbar a {
     font-size: 2rem;
@@ -133,11 +133,11 @@ section {
     }
 
     .header .flex .navbar {
-        /* position: absolute;
+        position: absolute;
         top: 99%; left: 0; right: 0;
         border-top: var(--border);
         border-bottom: var(--border);
-        background-color: var(--mist); */
+        background-color: var(--mist);
         transition: .2s linear;
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
