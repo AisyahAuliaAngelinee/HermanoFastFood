@@ -1,29 +1,38 @@
-// let navbar = document.getElementsByTagName('nav')[0]
+navbar = document.querySelector('.header .flex .navbar');
 
-// console.log(document.getElementsByClassName('icons'));
-// console.log(document.getElementById('menu'));
-// document.querySelector('#menu-btn').addEventListener('click', function ()  {
-//     console.log('test');
-//     navbar.classList.toggle('active');
-// })
+document.querySelector('#menu-btn').onclick = () => {
+    navbar.classList.toggle('active');
+    profile.classList.remove('active');
+}
 
-// = () => {
-//     navbar.classList.toggle('active');
-// }
+profile = document.querySelector('.header .flex .profile');
 
-// console.log(header)
-// console.log(flex)
-// console.log(navbar)
-// document.querySelector('#menu').onclick = () => {
-//     navbar.classList.toggle('active');
-// }
+document.querySelector('#user-btn').onclick = () => {
+    profile.classList.toggle('active');
+    navbar.classList.remove('active');
+}
 
-// document.querySelector('#menu').onclick = () => {
-//     document.getElementById('menu').classList.toggle('active');
-// }
+window.onscroll = () => {
+    navbar.classList.remove('active');
+    profile.classList.remove('active');
+}
 
-let navbar = document.querySelector(".header .flex .navbar");
 
-document.querySelector("#menu-btn").onclick = () => {
-  navbar.classList.toggle("active");
-};
+// gototop reaction
+window.addEventListener('scroll', function () {
+    var scrollToTopButton = document.getElementById('scrollToTopButton');
+    if (window.pageYOffset > 300) {
+        scrollToTopButton.classList.add('show');
+    } else {
+        scrollToTopButton.classList.remove('show');
+    }
+});
+
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
+
+document.getElementById('scrollToTopButton').addEventListener('click', scrollToTop);
