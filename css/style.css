@@ -477,7 +477,7 @@ section {
     line-height: 2;
     font-size: 1rem;
     text-align: center;
-    color: var(--white);
+    color: var(--black);
 }
 
 .about .row .content span {
