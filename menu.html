@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lo'S Polo'S Hermano'S (Menu)</title>
+
+    <!-- cdn links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <!-- css file -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- website icons -->
+    <link rel="Website icon" type="png" href="logo/logo-no-background.png">
+
+</head>
+<body>
+
+    <!-- header -->
+    <header class="header">
+        <section class="flex">
+            <!-- <a href="home.html" class="logo">Top Tier Chicken</a> -->
+            <div href="home.html" class="logo">
+                <img src="logo/logo-no-background.png" width="125px">
+            </div>
+            <nav class="navbar">
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="menu.html">Menu</a>
+                <a href="orders.html">Orders</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="icons">
+                <a href="search.html"><i class="fas fa-search"></i></a>
+                <a href="cart.html"><i class="fas fa-shopping-cart"></i><span>(3)</span></a>
+                <div id="user-btn" class="fas fa-user"></div>
+                <div id="menu-btn" class="fas fa-bars"></div>
+            </div>
+            <div class="profile">
+                <p class="name">Aisyah Aulia Angelinee</p>
+                <div class="flex">
+                    <a href="profile.html" class="btn">Profile</a>
+                    <a href="#" class="delete-btn">Logout</a>
+                </div>
+                <p class="account">
+                    <a href="login.html">Login</a> or <a href="register.html">Register</a>
+                </p>
+            </div>
+        </section>
+    </header>
+
+    <!-- front banner section -->
+    <section class="hero">
+        <!-- hero merupakan content banner untuk menarik perhatian user yang mampir ke website kita -->
+            <div class="swiper hero-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>Order Online</span>
+                            <h3>Honey Glaze Chicken Grilled with Broccoli</h3>
+                            <a href="menu.html" class="btn">See Detail</a>
+                        </div>
+                        <div class="image">
+                            <img src="gambar/home/home-img-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>Order Online</span>
+                            <h3>Whooper Whooper Double Whooper Thick Meat</h3>
+                            <a href="menu.html" class="btn">See Detail</a>
+                        </div>
+                        <div class="image">
+                        <img src="gambar/home/home-img-2.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Order Online</span>
+                        <h3>Sexy Grilled Chicken V2.0</h3>
+                        <a href="menu.html" class="btn">See Detail</a>
+                    </div>
+                    <div class="image">
+                        <img src="gambar/home/home-img-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- Heading -->
+    <div class="heading">
+        <h3>our menu</h3>
+        <p><a href="home.html">Home</a><span> / menu</span></p>
+    </div>
+
+    <!-- Kategori -->
+    <section class="kategori">
+        <h1 class="title">Category</h1>
+        <div class="box-container">
+            <a href="#" class="box">
+                <img src="gambar/kategori/kategori-1.png" alt="">
+                <h3>CHICKEN</h3>
+            </a>
+            <a href="#" class="box">
+                <img src="gambar/kategori/kategori-2.png" alt="">
+                <h3>BURGER</h3>
+            </a>
+            <a href="#" class="box">
+                <img src="gambar/kategori/kategori-3.png" alt="">
+                <h3>DRINKS</h3>
+            </a>
+            <a href="#" class="box">
+                <img src="gambar/kategori/kategori-4.png" alt="">
+                <h3>DESSERTS</h3>
+            </a>
+        </div>
+    </section>
+
+    <!-- Menu Sections -->
+    <section class="produk">
+
+        <!-- Chicken -->
+        <h1 class="title">CHICKEN MENU</h1>
+        <div class="box-container">
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="gambar/ayam/menu-1.jpg" alt="">
+                <a href="#" class="cat">CHICKEN MENU</a>
+                <div class="name">[On Plate] Grilled Chicken Breast with Leaf cut Springkle</div>
+                <div class="flex">
+                    <div class="price"><span>Rp </span>75.000</div>
+                    <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+                </div>
+            </form>
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="gambar/ayam/menu-2.jpg" alt="">
+                <a href="#" class="cat">CHICKEN MENU</a>
+                <div class="name">[On Pose] Stripping Whole Naked Chicken Grill</div>
+                <div class="flex">
+                    <div class="price"><span>Rp </span>83.900</div>
+                    <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+                </div>
+            </form>
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="gambar/ayam/menu-3.jpg" alt="">
+                <a href="#" class="cat">CHICKEN MENU</a>
+                <div class="name">[On Grill] Grilled D-Cup Chicken Breast with Leaf Topping</div>
+                <div class="flex">
+                    <div class="price"><span>Rp </span>87.500</div>
+                    <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+                </div>
+            </form>
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="gambar/ayam/menu-4.jpg" alt="">
+                <a href="#" class="cat">CHICKEN MENU</a>
+                <div class="name">[On Plate] Couple Grilled Chicken Breast with Lime Leaf</div>
+                <div class="flex">
+                    <div class="price"><span>Rp </span>45.000</div>
+                    <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+                </div>
+            </form>
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="gambar/ayam/menu-5.jpg" alt="">
+                <a href="#" class="cat">CHICKEN MENU</a>
+                <div class="name">World Most Healthy Salad with Grilled D-Cup Chicken Breast</div>
+                <div class="flex">
+                    <div class="price"><span>Rp </span>95.000</div>
+                    <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+                </div>
+            </form>
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="gambar/ayam/menu-6.jpg" alt="">
+                <a href="#" class="cat">CHICKEN MENU</a>
+                <div class="name">[On Grill] Perfect Size Grilled Whole Sexy Chicken</div>
+                <div class="flex">
+                    <div class="price"><span>Rp </span>105.000</div>
+                    <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+                </div>
+            </form>
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="gambar/ayam/menu-7.jpg" alt="">
+                <a href="#" class="cat">CHICKEN MENU</a>
+                <div class="name">[On Board] Nice Juicy Chicken Grill with Lemons on it</div>
+                <div class="flex">
+                    <div class="price"><span>Rp </span>110.000</div>
+                    <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+                </div>
+            </form>
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="gambar/ayam/menu-8.png" alt="">
+                <a href="#" class="cat">CHICKEN MENU</a>
+                <div class="name">[On Towel] Sexy Boiled Chicken with Lemon Bikini </div>
+                <div class="flex">
+                    <div class="price"><span>Rp </span>1.999.999</div>
+                    <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+                </div>
+            </form>
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="gambar/ayam/menu-9.png" alt="">
+                <a href="#" class="cat">CHICKEN MENU</a>
+                <div class="name">[On Pose] Full Size Raw Chicken Possing Juicy Breast</div>
+                <div class="flex">
+                    <div class="price"><span>Rp </span>2.999.999</div>
+                    <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+                </div>
+            </form>
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="gambar/ayam/menu-10.jpg" alt="">
+                <a href="#" class="cat">CHICKEN MENU</a>
+                <div class="name">[On Plate] Medium Well Chicken with Big Breast</div>
+                <div class="flex">
+                    <div class="price"><span>Rp </span>74.000</div>
+                    <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+                </div>
+            </form>
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="gambar/ayam/menu-11.jpg" alt="">
+                <a href="#" class="cat">CHICKEN MENU</a>
+                <div class="name">[On Paper] Grilled Small size Chicken tied with rope in hand</div>
+                <div class="flex">
+                    <div class="price"><span>Rp </span>64.000</div>
+                    <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+                </div>
+            </form>
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="gambar/ayam/menu-12.jpg" alt="">
+                <a href="#" class="cat">CHICKEN MENU</a>
+                <div class="name">[On Plate] Slice Grilled Chicken Breast with Chips and Salsa</div>
+                <div class="flex">
+                    <div class="price"><span>Rp </span>55.000</div>
+                    <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+                </div>
+            </form>
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="gambar/ayam/menu-13.jpg" alt="">
+                <a href="#" class="cat">CHICKEN MENU</a>
+                <div class="name">[On Plate] 2 Piece Grilled Chicken Breast with Kampoeng Fried Rice</div>
+                <div class="flex">
+                    <div class="price"><span>Rp </span>35.000</div>
+                    <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+                </div>
+            </form>
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="gambar/ayam/menu-14.jpg" alt="">
+                <a href="#" class="cat">CHICKEN MENU</a>
+                <div class="name">[On Plate] Yellow Seasoning Grilled Chicken Breast then Sliced</div>
+                <div class="flex">
+                    <div class="price"><span>Rp </span>84.599</div>
+                    <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+                </div>
+            </form>
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="gambar/ayam/menu-15.jpg" alt="">
+                <a href="#" class="cat">CHICKEN MENU</a>
+                <div class="name">[On Plate] Small Grilled Chicken Breast with Lemon and Redwine Sauce</div>
+                <div class="flex">
+                    <div class="price"><span>Rp </span>84.599</div>
+                    <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+                </div>
+            </form>
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="gambar/ayam/menu-16.jpg" alt="">
+                <a href="#" class="cat">CHICKEN MENU</a>
+                <div class="name">[On Plate] </div>
+                <div class="flex">
+                    <div class="price"><span>Rp </span>84.599</div>
+                    <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+                </div>
+            </form>
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="gambar/ayam/menu-17.jpg" alt="">
+                <a href="#" class="cat">CHICKEN MENU</a>
+                <div class="name">[On Plate] Nice Juicy Chicken Salad Masala with Tomatoes (Looks like Cherry)</div>
+                <div class="flex">
+                    <div class="price"><span>Rp </span>190.000</div>
+                    <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+                </div>
+            </form>
+            <form action="" method="post" class="box">
+                <button type="submit" class="fas fa-eye" name="quick_view"></button>
+                <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+                <img src="gambar/ayam/menu-17.jpg" alt="">
+                <a href="#" class="cat">CHICKEN MENU</a>
+                <div class="name">[On Plate] Nice Juicy Chicken Salad Masala with Tomatoes (Looks like Cherry)</div>
+                <div class="flex">
+                    <div class="price"><span>Rp </span>190.000</div>
+                    <input type="number" name="qty" class="qty" min="1" max="99" value="1" onkeypress="if(this.value.length == 2) return false;">
+                </div>
+            </form>
+            <!-- Add More Products -->
+
+        </div>
+
+        <!-- Burger -->
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <section class="grid">
+            <div class="box">
+                <img src="icon/email-icon.png" alt="">
+                <h3>Our E-Mail</h3>
+                <a href="vincentius.clarishna@gmail.com">vincentius.clarishna@gmail.com</a>
+                <a href="AuliaAngelinee@gmail.com">AuliaAngelinee@gmail.com</a>
+            </div>
+            <div class="box">
+                <img src="icon/clock-icon.png" alt="">
+                <h3>Open Hours</h3>
+                <p>Weekdays: 09AM - 23PM</p>
+                <p>Weekends: 09AM - Midnight</p>
+            </div>
+            <div class="box">
+                <img src="icon/map-icon.png" alt="">
+                <h3>Find Us</h3>
+                <a href="#">Jalan Scientia Boulevard Gading, Curug Sangereng, Serpong</a>
+            </div>
+            <div class="box">
+                <img src="icon/phone-icon.png" alt="">
+                <h3>Contact Us</h3>
+                <a href="telp:6281399999650">+62 813-9999-9650 <br> (Whatsapp Only)</a>
+            </div>
+        </section>
+        <div class="credit">created by <span>Vincentius Clarishna a.k.a Aisyah Aulia Angelinee</span> | all rights reserved!</div>
+    </footer>
+
+    <!-- Back to top -->
+    <a href="#" id="scrollToTopButton" class="scroll-to-top">Top</a>
+    <!-- JavaScript -->
+    <script src="js/js.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".hero-slider", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoheight: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                loop:true,
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            rewind:true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+</html>
